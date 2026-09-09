@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <foreignObject ONCLICK="alert(1)" width="300" height="300">
+    <xhtml:div>
+      <xhtml:a href="   JaVaScRiPt:alert(1)">Nested link</xhtml:a>
+      <xhtml:a xlink:href="vbscript:msgbox(1)">Prefixed link</xhtml:a>
+      <xhtml:embed src="data:image/svg+xml;base64,PHN2Zy8+"/>
+      <xhtml:object data="DATA:APPLICATION/XHTML+XML,&lt;html/&gt;"/>
+      <xhtml:img src="data:image/png;base64,iVBORw0KGgo=" onerror="alert(1)"/>
+      <xhtml:form action="/submit" srcdoc="&lt;script&gt;alert(1)&lt;/script&gt;">Form</xhtml:form>
+    </xhtml:div>
+  </foreignObject>
+</svg>
+
+@@@
+
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <foreignObject width="300" height="300">
+        <xhtml:div>
+            <xhtml:a>
+                Nested link
+            </xhtml:a>
+            <xhtml:a>
+                Prefixed link
+            </xhtml:a>
+            <xhtml:embed/>
+            <xhtml:object/>
+            <xhtml:img src="data:image/png;base64,iVBORw0KGgo="/>
+            <xhtml:form action="/submit">
+                Form
+            </xhtml:form>
+        </xhtml:div>
+    </foreignObject>
+</svg>
