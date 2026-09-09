@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <a href="javascript:alert(1)">
+    <a href="javascript:alert(2)">
+      <text y="10">Nested anchor</text>
+    </a>
+    <text y="20">Second child</text>
+  </a>
+  <a href="javascript:alert(3)"/>
+  <a href="javascript:alert(4)">
+    <g>
+      <a href="javascript:alert(5)">
+        <text y="30">Deep anchor</text>
+      </a>
+    </g>
+  </a>
+  <text y="40">Last sibling</text>
+</svg>
+
+@@@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+    <text y="10">
+        Nested anchor
+    </text>
+    <text y="20">
+        Second child
+    </text>
+    <g>
+        <text y="30">
+            Deep anchor
+        </text>
+    </g>
+    <text y="40">
+        Last sibling
+    </text>
+</svg>

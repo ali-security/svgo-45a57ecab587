@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <a xmlns:hidden="http://www.w3.org/2000/svg" href="javascript:alert(1)">
+    <hidden:script>alert(2)</hidden:script>
+    <text y="10">Wrapped content</text>
+  </a>
+</svg>
+
+@@@
+
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+    <text y="10">
+        Wrapped content
+    </text>
+</svg>
